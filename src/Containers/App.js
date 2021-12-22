@@ -17,7 +17,7 @@ class App  extends Component{
         .then(response =>response.json())
         .then(robot =>this.setState({robot}))
     }
-    onSearchChanage=(event) =>{
+    onSearchChanage = (event) =>{
         this.setState({searchfield:event.target.value})
     }
     render(){
